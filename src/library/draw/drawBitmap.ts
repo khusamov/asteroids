@@ -11,8 +11,8 @@ export function drawBitmap(data: TBitmap, offset: IPoint, colorPalette: string[]
 					x: x + offset.x,
 					y: y + offset.y
 				}
-				const colorIndex = line[x] - 1
-				drawPixel(point, colorPalette[colorIndex])
+				const colorIndex = (line[x] ?? 0) - 1
+				drawPixel(point, colorPalette[colorIndex] ?? 'black')
 			}
 		}
 	}

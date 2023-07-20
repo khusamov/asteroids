@@ -40,7 +40,11 @@ export class FontManager {
 	 * @returns {TextStyle}
 	 */
 	public createTextStyle(fontName: string, decorateFunction: IDecorateFunction = identityFunction) {
-		const {font, encoding} = this.fontList[fontName]
+		const fontInfo = this.fontList[fontName]
+		if (!fontInfo) {
+			throw new Error(`Не найден шрифт '${fontName}'`)
+		}
+		const {font, encoding} = fontInfo
 		return new TextStyle(font, encoding, decorateFunction)
 	}
 }
