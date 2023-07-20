@@ -1,8 +1,6 @@
 import {IMessage} from '../library/messages/IMessage'
 import {MessageEmitter} from '../library/messages/MessageEmitter'
-import {CameraResizingMessage} from './features/camera-resize/CameraResizingMessage'
 import {createOnResizeHandler} from './features/camera-resize/onResize'
-import {CameraZoomChangingMessage, ZoomDirection} from './features/camera-zoom/CameraZoomChangingMessage'
 import {createOnWheelHandler} from './features/camera-zoom/onWheel'
 
 export function initKeyboardShortcuts(messageEmitter: MessageEmitter, keyboardShortcuts: Record<string, [IMessage, IMessage]>) {

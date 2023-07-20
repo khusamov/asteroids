@@ -7,7 +7,6 @@ import {CameraZoomChangingRule} from './game/features/camera-zoom/CameraZoomChan
 import {Game} from './game/Game'
 import {initKeyboardShortcuts} from './game/initKeyboardShortcuts'
 import {keyboardShortcuts} from './game/keyboardShortcuts'
-import {CameraControlMessage} from './game/messages/CameraControlMessage'
 import {RenderMessage} from './game/messages/RenderMessage'
 import {UpdateMessage} from './game/messages/UpdateMessage'
 import {PositionRandomizeRule} from './game/rules/PositionRandomizeRule'
