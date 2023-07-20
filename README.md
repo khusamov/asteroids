@@ -7,8 +7,8 @@
 На основе астероидов можно по идее сделать Dirty Bomb 2D.
 
 Код написан на основе:  
-https://github.com/khusamov/box2d
-https://github.com/khusamov/solid-futurio-ru-game
+https://github.com/khusamov/box2d  
+https://github.com/khusamov/solid-futurio-ru-game  
 
 Прототип игры:  
 https://ater.me/asteroids/  
