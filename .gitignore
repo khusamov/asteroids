@@ -1,0 +1,6 @@
+.idea
+.parcel-cache
+.yarn
+dist
+node_modules
+temp

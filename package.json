@@ -1,0 +1,27 @@
+{
+  "name": "asteroids-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.9.3",
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/events": "^3.0.0",
+    "bdfparser": "^2.2.5",
+    "events": "^3.3.0",
+    "fetchline": "^1.0.1",
+    "iconv-lite": "^0.6.3",
+    "parcel-reporter-static-files-copy": "^1.5.0"
+  }
+}

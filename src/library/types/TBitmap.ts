@@ -1,0 +1,1 @@
+export type TBitmap = Array<Array<number>>
